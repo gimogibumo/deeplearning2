@@ -1,4 +1,6 @@
 ## Datasets
+### CHILDES datasets
+* https://talkbank.org/childes/ (여기서 회원 가입)
 
 ### ENNI
 * https://talkbank.org/childes/access/Clinical-Eng/ENNI.html

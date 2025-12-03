@@ -16,6 +16,6 @@ for i, utt in enumerate(utts):
     #print(f"{i+1}. {utt.speaker}: {utt.text}")
     print(f"{i+1}. {utt.speaker}: {utt.clean_text}")
 
-    if i == 10:
+    if i == 9:
         break
 
