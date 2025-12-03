@@ -3,6 +3,8 @@
 * ENNI: https://talkbank.org/childes/access/Clinical-Eng/ENNI.html
 * Gillam: https://talkbank.org/childes/access/Clinical-Eng/Gillam.html
 
+**학번이 짝수인 사람은 ENNI, 홀수인 사람은 Gillam**
+
 ### Split
 
 데이터셋은 train/validation/test로 8:1:1 비율로 stratified split
@@ -64,3 +66,18 @@ python read_cha.py
 9. CHI: all done.
 10. EXA: so .
 ```
+
+## Goal
+아동의 발화 텍스트를 기반으로 언어 발달 그룹을 예측하는 이진 분류(binary classification) 수행
+
+- **입력**: `.cha` 파일
+- **출력**: `group` 예측
+  - **SLI** (Specific Language Impairment): 특정 언어 장애를 가진 아동
+  - **TD** (Typically Developing): 정상적으로 언어 발달을 하는 아동
+
+## 수행 방법
+
+`split/` 폴더 아래에 제공된 train/dev/test split 파일들을 사용하여 다음을 수행하세요:
+
+- **Hyperparameter Tuning**: `split/*_train.csv`와 `split/*_dev.csv`를 사용하여 모델의 하이퍼파라미터를 튜닝하세요.
+- **Test Evaluation**: 최종 모델 성능 평가는 `split/*_test.csv`를 사용하여 수행하세요.
