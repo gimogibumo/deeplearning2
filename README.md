@@ -77,7 +77,7 @@ python read_cha.py
 
 ## 수행 방법
 
-`split/` 폴더 아래에 제공된 train/dev/test split 파일들을 사용하여 다음을 수행하세요:
+`split/` 폴더 아래에 제공된 train/dev/test split 파일들을 사용:
 
-- **Hyperparameter Tuning**: `split/*_train.csv`와 `split/*_dev.csv`를 사용하여 모델의 하이퍼파라미터를 튜닝하세요.
-- **Test Evaluation**: 최종 모델 성능 평가는 `split/*_test.csv`를 사용하여 수행하세요.
+- **Hyperparameter Tuning**: `split/*_train.csv`와 `split/*_dev.csv`를 사용하여 모델의 하이퍼파라미터를 튜닝
+- **Test Evaluation**: 최종 모델 성능 평가는 `split/*_test.csv`를 사용하여 수행
