@@ -28,3 +28,24 @@ utterances = extract_utterances("ENNI/SLI/A/413.cha", ["CHI", "EXA"])
 for utt in utterances[:3]:
     print(utt.order, utt.speaker, utt.clean_text)
 ```
+
+## read_cha.py 실행 예시
+
+```
+$ python read_cha.py
+📊 발화 분포: {'CHI': 72, 'EXA': 22}
+
+📊 94개 발화 추출
+
+1. EXA: okay Firstname .
+2. EXA: look at these pictures and tell me what's happening .
+3. CHI: I shopping .
+4. CHI: and get cookie .
+5. CHI: get . one cookie .
+6. CHI: and fall off .
+7. CHI: and then angry .
+8. EXA: and ?
+9. CHI: all done.
+10. EXA: so .
+11. EXA: okay Firstname tell me the story that you see in these pictures .
+```
