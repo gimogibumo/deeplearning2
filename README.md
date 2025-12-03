@@ -3,7 +3,7 @@
 * ENNI: https://talkbank.org/childes/access/Clinical-Eng/ENNI.html
 * Gillam: https://talkbank.org/childes/access/Clinical-Eng/Gillam.html
 
-## Dataset Split
+### Split
 
 데이터셋은 train/validation/test로 8:1:1 비율로 stratified split
 
