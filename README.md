@@ -6,7 +6,7 @@
 ### Gillam
 * https://talkbank.org/childes/access/Clinical-Eng/Gillam.html
 
-## Utils 사용법
+## Helper functions ('utils.py') 사용법
 
 ### count_utterance_by_speaker
 `utils.count_utterance_by_speaker("path/to/file.cha")` 를 호출하면 실제 발화가 존재하는 화자만 키로, 발화 수를 값으로 갖는 dict 를 돌려줍니다. 기본적인 사용 예시는 다음과 같습니다.
@@ -29,10 +29,11 @@ for utt in utterances[:3]:
     print(utt.order, utt.speaker, utt.clean_text)
 ```
 
-## read_cha.py 실행 예시
-
+## `.cha` 파일 읽는 예
 ```
-$ python read_cha.py
+python read_cha.py
+```
+```
 📊 발화 분포: {'CHI': 72, 'EXA': 22}
 
 📊 94개 발화 추출
@@ -47,5 +48,4 @@ $ python read_cha.py
 8. EXA: and ?
 9. CHI: all done.
 10. EXA: so .
-11. EXA: okay Firstname tell me the story that you see in these pictures .
 ```
