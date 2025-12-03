@@ -1,12 +1,7 @@
 ## Datasets
-### CHILDES datasets
-* https://talkbank.org/childes/ (여기서 회원 가입)
-
-### ENNI
-* https://talkbank.org/childes/access/Clinical-Eng/ENNI.html
-
-### Gillam
-* https://talkbank.org/childes/access/Clinical-Eng/Gillam.html
+* CHILDES datasets: https://talkbank.org/childes/ (여기서 회원 가입)
+* ENNI: https://talkbank.org/childes/access/Clinical-Eng/ENNI.html
+* Gillam: https://talkbank.org/childes/access/Clinical-Eng/Gillam.html
 
 ## Helper functions ('utils.py') 사용법
 
