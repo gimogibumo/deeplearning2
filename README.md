@@ -14,8 +14,8 @@
 ```
 from utils import count_utterance_by_speaker
 
-speakers = count_utterance_by_speaker("ENNI/SLI/A/413.cha")
-print(speakers)  # {'CHI': 124, 'EXA': 103, ...}
+count_utterance = count_utterance_by_speaker("ENNI/SLI/A/413.cha")
+print(count_utterance)  # {'CHI': 124, 'EXA': 103, ...}
 ```
 
 ### extract_utterances
