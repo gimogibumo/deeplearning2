@@ -3,6 +3,24 @@
 * ENNI: https://talkbank.org/childes/access/Clinical-Eng/ENNI.html
 * Gillam: https://talkbank.org/childes/access/Clinical-Eng/Gillam.html
 
+## Dataset Split
+
+데이터셋은 train/validation/test로 8:1:1 비율로 stratified split
+
+**ENNI**
+- Stratification 기준: `group` (SLI/TD)와 `sub_group` (A/B)
+- 각 그룹 조합(SLI-A, SLI-B, TD-A, TD-B) 내에서 비율을 유지하며 분할
+- `split_enni.py` 실행 
+- 결과 `split/ENNI_train.csv`, `split/ENNI_dev.csv`, `split/ENNI_test.csv`
+
+**Gillam**
+- Stratification 기준: `group` (SLI/TD)와 `age` (5-11세)
+- 각 그룹-나이 조합 내에서 비율을 유지하며 분할
+- SLI 그룹의 11세 샘플이 부족하여 SLI-10으로 매핑하여 처리
+- `split_gillam.py` 실행 
+- 결과: `split/gillam_train.csv`, `split/gillam_dev.csv`, `split/gillam_test.csv`
+
+
 ## Helper functions ('utils.py') 사용법
 
 ### count_utterance_by_speaker
