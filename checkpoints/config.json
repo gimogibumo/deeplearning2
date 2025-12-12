@@ -1,0 +1,13 @@
+{
+  "input_dim": 3000,
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "output_dim": 2,
+  "dropout": 0.3,
+  "vectorizer_type": "tfidf",
+  "max_features": 3000,
+  "best_epoch": 4,
+  "best_dev_f1": 0.7272727272727272
+}
