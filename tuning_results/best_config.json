@@ -1,0 +1,11 @@
+{
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "dropout": 0.5,
+  "learning_rate": 0.002,
+  "batch_size": 32,
+  "max_features": 3000,
+  "best_dev_f1": 0.8125000000000001
+}
