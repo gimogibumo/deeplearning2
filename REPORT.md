@@ -236,8 +236,7 @@ Macro Avg         0.7633    0.7546    0.7587
 
 ## 10. GitHub 저장소
 
-- https://github.com/ssuai/slp (원본 템플릿)
-- 본 프로젝트 코드는 위 저장소를 기반으로 작성
+- https://github.com/gimogibumo/deeplearning2
 
 ---
 
